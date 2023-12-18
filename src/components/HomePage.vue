@@ -16,7 +16,7 @@
     </body>
   </div>
   <br />
-  <div class="codeintro bg-slate-200 text-violet-600 flex-auto grid place-content-center">
+  <div class="codeintro bg-slate-300 text-violet-600 flex-auto grid place-content-center">
     <p>
       I usually enjoy writing codes that are similar to the code block that you will see
       below.
@@ -78,6 +78,8 @@ pre {
 }
 
 .codeintro {
+  font-size: larger;
+  font-family: sans-serif;
   display: flow-root;
   max-width: fit-content;
   margin: 0 auto;

@@ -10,6 +10,7 @@ const routes = {
   "/": HomePage,
   "/hello": HelloWorld,
   "/PersonalSetup": PersonalSetup,
+  "/HelloWorld": HelloWorld,
   "/:pathMatch(.*)*": NotFoundView,
   "/Forbidden": ForbiddenView,
 };
