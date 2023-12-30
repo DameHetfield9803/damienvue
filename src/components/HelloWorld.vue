@@ -1,7 +1,7 @@
 <!--Create a component called Hello World-->
-<script lang="ts" setup>
+<script setup>
 import { ref } from "vue";
-const logo = "../assets/logo.png";
+import logo from "/src/assets/logo.png";
 const names = ref([
   { id: 1, name: "Damien" },
   { id: 2, name: "Daniel" },
